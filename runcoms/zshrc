@@ -16,3 +16,33 @@ promptinit
 prompt cloud
 
 
+# zsh options
+setopt \
+    append_history	\
+    auto_cd		\
+    auto_list		\
+    bang_hist		\
+    correct		\
+    extended_history	\
+    glob		\
+    glob_complete	\
+    hist_ignore_space	\
+    hist_no_functions	\
+    hist_no_store	\
+    hist_reduce_blanks	\
+    hist_save_no_dups	\
+    list_packed		\
+    long_list_jobs	\
+    mark_dirs		\
+    nobeep		\
+    nonomatch		\
+    notify		\
+    prompt_subst	\
+    nohup
+
+if [[ -x =vim ]]; then
+    alias vi='vim'
+    export EDITOR=vim
+else
+    export EDITOR=vi
+fi
