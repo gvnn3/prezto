@@ -40,9 +40,13 @@ setopt \
     prompt_subst	\
     nohup
 
+unsetopt share_history
+
 if [[ -x =vim ]]; then
     alias vi='vim'
     export EDITOR=vim
 else
     export EDITOR=vi
 fi
+
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
