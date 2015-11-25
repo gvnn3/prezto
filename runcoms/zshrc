@@ -22,6 +22,7 @@ setopt \
     auto_cd		\
     auto_list		\
     bang_hist		\
+    clobber		\
     correct		\
     extended_history	\
     glob		\
