@@ -71,3 +71,7 @@ alias   power="ipmitool -I lanplus -H \!^ -U hrt -P hrt chassis power cycle"
 alias	ipmi-serial="ipmitool -I lanplus -H \!^\-ipmi -U hrt -P hrt sol activate"
 alias	sourceforge="ssh shell.sourceforge.net"
 alias	punkwifi="sudo wpa_supplicant -Dbsd -iwlan0 -c /etc/wpa_supplicant.conf"
+
+# zoo only
+export MAKEOBJDIRPREFIX=/tank/users/gnn/obj
+export MAKEOBJDIR=/tank/users/gnn/obj
