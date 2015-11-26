@@ -25,6 +25,7 @@ setopt \
     clobber		\
     correct		\
     extended_history	\
+    noextendedglob	\
     glob		\
     glob_complete	\
     hist_ignore_space	\
