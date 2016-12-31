@@ -56,9 +56,6 @@ test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_in
 
 alias	.="source"
 alias	j	"jobs"
-alias	make="make \!* |& tee make.out"
-alias	gmake="gmake \!* |& tee make.out"
-alias	bmake="bmake \!* |& tee make.out"
 alias   bsdbook="setenv CVSROOT :ext:chez.mckusick.com:/home/staff/mckusick/book/cvs;setenv CVS_RSH ssh"
 alias   p4bsd="setenv P4PORT perforce.freebsd.org:1666"
 alias	zoo="ssh zoo.freebsd.org"
