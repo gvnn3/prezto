@@ -9,3 +9,5 @@
 if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
+
+export HOMEBREW_GITHUB_API_TOKEN=50cd343f5e82b0c45ef2fc4a4772c3ddc1555197
